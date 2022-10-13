@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>deCodificando</title>
+</head>
+<body>
+
+    <main class="container-principal">
+
+        <div class="container-sobre">
+
+            <div class="titulo">
+                <h1>!deCodifica!</h1>
+            </div>
+
+            <br>
+
+            <div class="explicacao-trabalho">
+                <h3>
+                    Esse projeto realiza a codificação e a decodificação de uma frase inserida pelo usuário no formulário
+                    inicial, após isso deve-se decidir em que base será cofificada ou decodificada. Caso seja a Cifra de César
+                    também é necessário adicionar um incremento!
+                </h3>
+            </div>
+
+        </div>
+
+        <div class="container-formulario">
+
+            <form class="formulario">
+                <label for="entertext">Escreva uma frase a ser de/codificada:</label>
+                <input class="entertext" type="text" placeholder="Escreva a mensagem a ser deCodificada aqui!">
+
+                <br><br>
+
+                <label for="opcoes-cripto">Escolha a base de de/codificação:</label>
+                <select onclick="" class="opcoes-cripto">
+                    <option value="escola">Escolha uma das opções!</option>
+                    <option value="cifracesar">Cifra de César</option>
+                    <option value="base64">Base 64</option>
+                </select>
+
+                <input class="incremento" min="1" max="25" type="number">
+
+                <div class="container-radio">
+                    
+                    <label for="codifica">Codifica</label>
+                    <input type="radio" class="radio-codifica" name="escolha-cripto" value="radio-codifica" checked>
+                    <label for="decodifica">Decodifica</label>
+                    <input type="radio" class="radio-decodifica" name="escolha-cripto" value="radio-decodifica" checked>
+                
+                </div>
+
+                <div class="container-submit">
+
+                    <input type="button" value="Codificar" id="cod" class="codordecod" onclick="codCaesar()">
+                    <input type="button" value="Decodificar" id="decod" class="codordecod">
+
+                </div>
+
+            </form>
+            <br>
+            <div>
+                <p class="decodMensagem"></p>
+            </div>
+
+        </div> 
+
+    </main>
+
+    <footer class="rodape">
+
+        Manu Oliveira ® License: none (public domain)
+
+    </footer>   
+
+    <script src="./js/deCodificando.js"></script>
+
+</body>
+</html>

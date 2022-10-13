@@ -1,0 +1,174 @@
+/*Reset CSS*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+body{
+
+    font-family: 'Prompt', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+/*Contralizando o formulário*/
+.container-principal {
+    font-family: 'Prompt', sans-serif;
+    width: 100vw;
+    height: 95vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/vaporwave.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container-formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.entertext{
+    width: 300px;
+    height: 36px;
+    margin: 13px 0 0 -5px;
+    padding-left: 10px; 
+    border-radius: 5px;
+    border: solid 1px #cbc9c9; 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    background: #fff; 
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+select{
+    width: 300px;
+    height: 36px;
+    margin: 13px 0 0 0px;
+    margin-left: 100;
+    padding-left: 10px; 
+    border-radius: 5px;
+    border: solid 1px #cbc9c9; 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    background: #fff; 
+    text-align: center;
+}
+
+.container-radio{
+    display: flex;
+    flex-direction: row;
+    padding-top: 13px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 13px;
+}
+
+.incremento{
+    width: 50px;
+    height: 36px;
+    margin: 13px 0 0 0px;
+    margin-left: 100;
+    padding-left: 10px; 
+    border-radius: 5px;
+    border: solid 1px #cbc9c9; 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    background: #fff; 
+    text-align: center;
+    display: none;
+}
+
+.container-submit{
+    display: flex;
+    margin-top: 13px;   
+    gap: 13px;
+    align-items: center;
+    justify-content: center;
+}
+
+.codordecod{
+    width: 80px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 5px;
+    border: solid 1px #cbc9c9; 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    display: none;
+}
+
+.saida-criptdecript{
+    width: 300px;
+    height: 60px;
+    margin: 13px 0 0 0px;
+    margin-left: 100;
+    padding-left: 10px; 
+    border-radius: 5px;
+    border: solid 1px #cbc9c9; 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    background: #fff; 
+    text-align: center;
+
+}
+
+.container-sobre{
+    color: #fff;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: black;
+    height: 5vh;
+}
+
+.explicacao-trabalho{
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+}
